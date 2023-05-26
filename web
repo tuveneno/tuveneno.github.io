@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web de Viajes</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }    #header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #333;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .destination {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .destination h2 {
+        color: #333;
+        font-size: 24px;
+    }
+
+    .destination p {
+        color: #666;
+    }
+
+    .game-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .game-button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <div id="header">
+        <h1>¡Explora el mundo con nosotros!</h1>
+    </div><div id="content">
+    <div class="destination">
+        <h2>París, Francia</h2>
+        <p>Descubre la belleza de la Ciudad de la Luz. Visita la Torre Eiffel, pasea por los Campos Elíseos y disfruta de la deliciosa comida francesa.</p>
+    </div>
+
+    <div class="destination">
+        <h2>Roma, Italia</h2>
+        <p>Sumérgete en la historia y la cultura de la antigua Roma. Visita el Coliseo, el Vaticano y disfruta de la auténtica pizza italiana.</p>
+    </div>
+
+    <div class="destination">
+        <h2>Tokio, Japón</h2>
+        <p>Sumérgete en la vibrante cultura japonesa. Explora los barrios de Shinjuku y Shibuya, visita los templos ancestrales y disfruta de la exquisita gastronomía japonesa.</p>
+    </div>
+
+    <div class="game-container">
+        <h2>¡Juega y gana un viaje sorpresa!</h2>
+        <button class="game-button">¡Jugar ahora!</button>
+    </div>
+</div>
+</body>
+</html>
+```
